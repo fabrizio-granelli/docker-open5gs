@@ -12,14 +12,14 @@ parameter:
 pgw:
     freeDiameter: /etc/open5gs/freeDiameter/pgw.conf
     gtpc:
-      - addr: 192.168.50.22
+      - addr: 192.168.200.239
     gtpu:
-      - addr: 192.168.50.22
+      - addr: 192.168.200.239
     ue_pool:
       - addr: 45.45.0.1/16
         apn: "internet"
         dev: "ogstun"
-              
+
     dns:
       - 8.8.8.8
       - 8.8.4.4

@@ -14,7 +14,7 @@ mme:
     freeDiameter: /etc/open5gs/freeDiameter/mme.conf
     s1ap:
     gtpc:
-    gummei: 
+    gummei:
       plmn_id:
         mcc: 722
         mnc: 07
@@ -33,12 +33,12 @@ mme:
 
 sgw:
     gtpc:
-      addr: 192.168.50.21
+      addr: 192.168.200.238
     gtpu:
-      addr: 192.168.50.21
+      addr: 192.168.200.238
 
 pgw:
     gtpc:
-      addr: 192.168.50.22
+      addr: 192.168.200.239
     gtpu:
-      addr: 192.168.50.22
+      addr: 192.168.200.239
